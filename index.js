@@ -1,7 +1,7 @@
 const inquirer = require('inquirer')
 
 inquirer
-.prompt(
+.prompt([
     {
         type:'input',
         message:'What is your name?',
@@ -17,4 +17,11 @@ inquirer
         message:'What is your github?',
         name:'github'
     },
+    {
+        type:'list',
+        message:'What is your role?',
+        choices:['Intern','Engineer','Manager'],
+        name:'role'
+    }
+]
 );
