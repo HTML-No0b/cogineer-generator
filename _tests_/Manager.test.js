@@ -1,1 +1,1 @@
-//Manager tests are going to implement 
+//Manager tests should get implemented first

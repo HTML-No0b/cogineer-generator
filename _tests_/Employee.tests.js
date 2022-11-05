@@ -1,13 +1,3 @@
-class Employee {
-    constructor(name,id,email){
-        this.name = name,
-        this.id = id,
-        this.email = email
-    }
-    getname();
-    getId();
-    getEmail();
-    getRole();
-};
-
-module.exports = Employee
+//get employee tests, what it should do TDD(red light greenlight)
+//fill in with tests (underneath)
+describe()
