@@ -1,7 +1,6 @@
 const inquirer = require('inquirer')
 
-inquirer
-    .prompt([
+    const questions = [
         {
             type: 'input',
             message: 'What is your name?',
@@ -23,5 +22,18 @@ inquirer
             choices: ['Intern', 'Engineer', 'Manager'],
             name: 'role'
         }
-    ]
-    );
+    ];
+    
+
+    function writeFile(filename,data) {
+        return fs.writeFileSync(path.join(process.cwd(),filename),data)
+    };
+
+    function init(){
+        inquirer.prompt(questions)
+            .then((inquirerresponses)=>{
+                console.log("Generating Team", generateHTML({...inquirerresponses}))
+            })
+    }
+
+    init();
