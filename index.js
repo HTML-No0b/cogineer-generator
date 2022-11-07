@@ -1,4 +1,8 @@
 const inquirer = require('inquirer')
+    const fs = require('fs')
+    const path= require('path')
+
+
 
     const questions = [
         {
@@ -24,6 +28,64 @@ const inquirer = require('inquirer')
         }
     ];
     
+
+var htmlContent = `<html>`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     function writeFile(filename,data) {
         return fs.writeFileSync(path.join(process.cwd(),filename),data)
