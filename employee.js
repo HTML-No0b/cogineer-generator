@@ -1,14 +1,30 @@
 class Employee {
-    constructor(name,id,email,github,role){
+    constructor(name,id,email){
         this.name = name,
         this.id = id,
-        this.email = email,
-        this.github = github,
-        this.role = role
+        this.email = email
     }
-    getname();
-    getId();
-    getEmail();
-    getRole();
+    getName(){
+        return this.name
+    }
+    getId(){
+        return this.id
+    };
+    getEmail(){
+    return this.email
+    };
+    getRole(){
+        return 'employee'
+    };
 };
 module.exports = Employee
+
+
+
+
+
+
+
+
+
+

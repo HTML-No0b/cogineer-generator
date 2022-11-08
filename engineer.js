@@ -1,7 +1,8 @@
 class Engineer extends Employee {
     constructor(officeNumber, github) {
-        super(id,name,email)
+        super(officeNumber,github)
         this.officeNumber = officeNumber,
             this.github = github
     }
 }
+module.exports = Engineer
