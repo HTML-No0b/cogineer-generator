@@ -5,4 +5,9 @@ class Manager extends Employee {
         super(id,name,email,github),
         this.officeNumber = officeNumber
     }
+
+     getManagerHtml(){
+        return `
+        `
+    }
 }
