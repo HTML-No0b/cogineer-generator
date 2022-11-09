@@ -1,5 +1,6 @@
-function generateHTML(data) {
-    return `<!DOCTYPE html>
+function generateHTML(answers) {
+
+     `<!DOCTYPE html>
     <html lang="en">
     
     <head>

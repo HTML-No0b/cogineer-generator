@@ -2,13 +2,12 @@
 //fill in with tests (underneath)
 const Employee = require('../employee')
 
-xdescribe("Employee", () => {
+describe("Employee", () => {
     describe('first', () => {
         it( ' this should return a employee',()=>{
-            const obj = new Employee ('Todd', '13', 'test@gmail', )
-            
-        }
-
+            const obj = new Employee ('Todd', '13', 'test@gmail', ) }
         )
+        return new Employee
+
     })
 });
